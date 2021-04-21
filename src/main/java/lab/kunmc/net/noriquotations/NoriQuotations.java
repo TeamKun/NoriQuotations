@@ -40,7 +40,7 @@ public final class NoriQuotations extends JavaPlugin implements Listener{
                 sender.sendMessage(ChatColor.GREEN+"のりくん名言プラグインをオンにしました！");
                 norinori = true;
                 Bukkit.getOnlinePlayers().forEach(player -> {
-                    player.sendTitle(ChatColor.GREEN+"のり君の名言プラグイン","企画・制作 : KUNLab(Yanaaaaa)",10,100,10);
+                    player.sendTitle(ChatColor.GREEN+"のり君の迷言プラグイン","企画・制作 : KUNLab(Yanaaaaa)",10,100,10);
                 });
             }
 

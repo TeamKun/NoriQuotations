@@ -1,5 +1,5 @@
 name: NoriQuotations
-version: 1.0
+version: 1.1
 main: lab.kunmc.net.noriquotations.NoriQuotations
 api-version: 1.16
 commands:
