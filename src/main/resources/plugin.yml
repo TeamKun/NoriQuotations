@@ -1,0 +1,10 @@
+name: NoriQuotations
+version: 1.0
+main: lab.kunmc.net.noriquotations.NoriQuotations
+api-version: 1.16
+commands:
+  nori:
+    permission: nori.nori
+permissions:
+  nori.nori:
+    default: true
