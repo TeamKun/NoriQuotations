@@ -58,7 +58,7 @@ public final class NoriQuotations extends JavaPlugin implements Listener{
               List<String> sl = getConfig().getStringList("List");
               int num = rand.nextInt(sl.size()-1);
               Bukkit.getOnlinePlayers().forEach(player -> {
-                  player.sendMessage(ChatColor.AQUA + "<のり> " + sl.get(num));
+                  player.sendMessage(ChatColor.AQUA + sl.get(num));
               });
           }
         }
